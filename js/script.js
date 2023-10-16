@@ -19,7 +19,7 @@ console.log(list);
 
 // Con la lista creata ora devo stampare il contenuto sulla pagina
 const listEl = document.getElementById("list");
-for(i = 0; i < list.lenght; i++){
+for(i = 0; i < list.length; i++){
     const listItemEl = document.createElement("li");
     listItemEl.innerHTML = list[i];
     listEl.appendChild(listItemEl);
